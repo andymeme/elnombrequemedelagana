@@ -94,4 +94,19 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+    
+    /**
+     * El sol baja
+     */
+    public void atardecer()
+    {
+        sun.slowMoveVertical(90);
+    }
+    
+    
+    
+    
+    
+    
+    
 }
